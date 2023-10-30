@@ -74,7 +74,7 @@ h1 span:nth-child(even) {
 }
 #start-game-btn:hover {
   cursor: pointer;
-  box-shadow: -12px -8px 42px -9px rgba(229, 108, 108, 0.65);
+  box-shadow: 0 0 42px -9px rgba(229, 108, 108, 0.65);
   color: rgb(46, 45, 45);
 }
 
@@ -90,7 +90,7 @@ h1 span:nth-child(even) {
 
 #headphone-drag {
   position: absolute;
-  top: 0;
+  top: -10px;
 }
 
 #wire-drag {
@@ -117,7 +117,7 @@ h1 span:nth-child(even) {
 
 h4 {
   position: absolute;
-  top: 60%;
+  top: 57%;
   text-align: justify;
   font-weight: 300;
   padding: 17px;
@@ -128,4 +128,15 @@ h4 span {
   color: white;
   background-color: black;
   padding: 0 4px;
+}
+
+#pepe-gif {
+  position: absolute;
+  bottom: 0;
+  display: none;
+  left: 5px;
+}
+#pepe-gif img {
+  width: 150px;
+  clip-path: inset(19% 0 0 0);
 }

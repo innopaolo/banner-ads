@@ -2,6 +2,8 @@
 
 This is a quick digital banner ad for practicing tasks such as image dragging, dropping, and creating side effects like playing audio.
 
+[Demo](https://innopaolo.github.io/banner-ads/)
+
 **TODO**
 
 - Convert the GIF into a sprite and use CSS for animation to optimize the file size.

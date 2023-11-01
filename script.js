@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const container = document.querySelector(".container");
   const span = document.querySelectorAll(".slide-in");
   const mainImg = document.querySelector(".img-container");
   const startBtn = document.getElementById("start-game-btn");
@@ -11,7 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function animateElementWithDelay(element, delay, ...properties) {
     if (properties.length % 2 !== 0) {
-      console.error("Each property should have a corresponding value.");
+      console.error(
+        "Each parameter property should have a corresponding value."
+      );
       return;
     }
 
